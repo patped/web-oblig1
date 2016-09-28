@@ -46,7 +46,7 @@
   main {
     width: 60%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.6);
     display: block;
     position: relative;
     border-radius: 10px;
@@ -73,6 +73,10 @@
     padding: 10px;
   }
 
+  #brød tr:nth-child(2n+1) {
+    background: rgba(161, 153, 153, 0.6);
+  }
+
   h2 {
     font-size:  36px;
     padding: 20px;
@@ -82,10 +86,6 @@
   h3 {
     font-size: 20px;
     padding: 20px;
-  }
-
-  #brød tr:nth-child(2n+1) {
-    background: rgba(161, 153, 153, 0.8);
   }
 
   #brødover {
