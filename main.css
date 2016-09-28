@@ -1,8 +1,11 @@
 
-  html {
-    background: url(bakgrund.jpg) 0, 0, no-repeat;
-    background-size: cover;
-    overflow: hidden;
+
+  #bakgrunn {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  z-index: 0;
   }
 
   header {
@@ -16,10 +19,11 @@
 
   nav {
     background: rgba(33, 76, 5, 0.7);
-    display: inline-block;
+    display: block;
     position: relative;
     width: 60%;
     height: 80px;
+    margin: auto;
   }
 
   nav ul {
@@ -33,10 +37,20 @@
     padding-top: 5px;
     width: 80px;
     text-align: center;
-    margin-left: 70px;
+    margin-left: 45px;
     margin-top: 16px;
     display: inline-block;
     padding: 10px;
+  }
+
+  main {
+    width: 60%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    margin: auto;
   }
 
   footer {
@@ -48,33 +62,32 @@
     margin: auto;
     }
 
-  #side {
-    width: 20%;
-    height: 800px;
-    background: rgba(0, 0, 0, 0);
-    display: block;
-    position: relative;
-    float: left;
-  }
 
-  main {
-    width: 60%;
-    height: 800px;
-    background: #4FE635;
-    display: block;
-    position: relative;
-    float: left;
-  }
-
-  #clearfloat {
-    clear: both;
-  }
-
-  #fjelltabbel {
+  #brød {
     margin: auto;
+    display: block;
+    position: relative;
+  }
+
+  #brød tr td {
+    padding: 10px;
   }
 
   h2 {
-    text-size 36px;
+    font-size:  36px;
     padding: 20px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  #brød tr:nth-child(2n+1) {
+    background: rgba(161, 153, 153, 0.8);
+  }
+
+  #brødover {
+   font-weight: bold;
   }
