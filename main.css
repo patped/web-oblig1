@@ -2,6 +2,7 @@
   html {
     background: url(bakgrund.jpg) 0, 0, no-repeat;
     background-size: cover;
+    overflow: hidden;
   }
 
   header {
@@ -32,11 +33,11 @@
     padding-top: 5px;
     width: 80px;
     text-align: center;
-    margin-left: 12px;
+    margin-left: 70px;
     margin-top: 16px;
     display: inline-block;
     padding: 10px;
-}
+  }
 
   footer {
     width: 60%;
@@ -67,4 +68,13 @@
 
   #clearfloat {
     clear: both;
+  }
+
+  #fjelltabbel {
+    margin: auto;
+  }
+
+  h2 {
+    text-size 36px;
+    padding: 20px;
   }
