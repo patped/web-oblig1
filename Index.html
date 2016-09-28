@@ -1,10 +1,112 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<meta utf="ut8">
+  <title></title>
+  <meta charset="ut8">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+
+<style>
+
+  html {
+    background: url(bakgrund.jpg) 0, 0, no-repeat;
+    background-size: cover;
+  }
+
+  header {
+    width: 60%;
+    height: 100px;
+    background: blue;
+    position: relative;
+    display: block;
+    margin: auto;
+  }
+
+  nav {
+    background: rgba(33, 76, 5, 0.7);
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 80px;
+  }
+
+  nav ul {
+    height: 80px;
+  }
+
+  nav ul li {
+    background: #FE0303;
+    height: 23px;
+    color: #FFF;
+    padding-top: 5px;
+    width: 80px;
+    text-align: center;
+    margin-left: 12px;
+    margin-top: 16px;
+    display: inline-block;
+    padding: 10px;
+}
+
+  footer {
+    width: 60%;
+    height: 60px;
+    background: #9C9;
+    position: relative;
+    display: block;
+    margin: auto;
+    }
+
+  #side {
+    width: 20%;
+    height: 800px;
+    background: rgba(0, 0, 0, 0);
+    display: block;
+    position: relative;
+    float: left;
+  }
+
+  main {
+    width: 60%;
+    height: 800px;
+    background: #4FE635;
+    display: block;
+    position: relative;
+    float: left;
+  }
+
+  #clearfloat {
+    clear: both;
+  }
+
+</style>
+
 </head>
+
 <body>
 
+  <header></header>
+
+  <div id="side"></div>
+
+  <main>
+
+    <nav>
+      <ul>
+        <a href="oversikt.html"><li>Meny 1</li></a>
+        <a href="oversikt.html"><li>Meny 2</li></a>
+        <a href="oversikt.html"><li>Meny 3</li></a>
+        <a href="oversikt.html"><li>Meny 4</li></a>
+        <a href="oversikt.html"><li>Meny 5</li></a>
+      </ul>
+    </nav>
+
+  </main>
+
+  <div id="side"></div>
+
+  <div id="clearfloat"></div>
+
+  <footer></footer>
+
 </body>
+
 </html>
