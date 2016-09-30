@@ -10,15 +10,23 @@
 
   header {
     width: 100%;
-    height: 100px;
-    background: blue;
+    background: rgba(255, 255, 255, 0.7);
     position: relative;
     display: block;
+  }
+
+  h1 {
+    text-indent: -9999px;
+  }
+
+  #logo {
     margin: auto;
+    display: block;
+    position: relative;
   }
 
   nav {
-    background: rgba(33, 76, 5, 0.7);
+    background: rgba(255, 255, 255, 0.7);
     display: block;
     position: relative;
     width: 100%;
@@ -28,8 +36,9 @@
 
   nav ul {
     height: 80px;
+    display: block;
+    position: relative;
   }
-
 
   nav ul li {
     background: rgba(161, 78, 10, 0.8);
@@ -37,11 +46,17 @@
     color: #FFF;
     width: 80px;
     text-align: center;
-    margin-left: 45px;
+    margin-left: 10%;
     margin-top: 16px;
     display: inline-block;
-    padding: 10px;
+    padding: 10px 3px 7px 2px;
     border-radius: 25px;
+  }
+
+  nav ul li:hover {
+    background: rgba(111, 52, 8, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   }
 
   main {
@@ -124,3 +139,31 @@
   background-color: #437d1c;
   opacity: 0.9;
 }
+
+
+
+
+  figure {
+      width: 360px;
+      height: 300px;
+      text-align: center;
+      padding-top: 30px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+      position: relative;
+      background:rgba(255, 255, 255, 0.6);
+      margin: 10px;
+      float: left;
+  }
+
+  figcaption {
+      text-align: center;
+      font-family:Georgia, serif;
+      color: #333;
+      padding-top: 30px;
+  }
+
+  #bilder {
+    margin:auto;
+  }
+
+
