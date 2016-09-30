@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brødklubben</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+
+  <img id="bakgrunn" src="bakgrunn.jpg">
+
+  <header></header>
+
+  <nav>
+    <ul>
+      <a href="index.html"><li>Hovedside</li></a>
+      <a href="brød.html"><li>Brødtyper</li></a>
+      <a href="brødgalleri.html"><li>Brødgalleri</li></a>
+      <a href="oversikt.html"><li>Meny 4</li></a>
+      <a href="oversikt.html"><li>Meny 5</li></a>
+    </ul>
+  </nav>
+
+  <br>
+
+  <main>
+  <div id="tabell">
+  <br><br>
+  <form name="form" method="post" action="kontakt.php" >
+      <tr><td>
+        <label for="navn">Navn</label>
+      </td></td>
+        <input type="text" name="navn" required="required id="navn" placeholder="Fornavn og Etternavn">
+        <br><br>
+      <td></tr>
+      </td></td>
+      <label for="mobil">Mobil</label>
+      <input type="tel" name="mobil" required="required id="mobil" placeholder="8-siffer">
+      </td></td>
+      <br><br>
+      <label for="epost">E-Mail</label>
+      <input type="email" name="epost" required="required" placeholder="E-postadresse">
+      <td></tr>
+      </tr></td>
+      <br><br>
+      <label for="">Beskjed</label>
+      <br><br>
+      <textarea name="kommentarer id="kommentarer" rows="10" cols="107" required="required"></textarea>
+      <br>
+      </td></td>
+      <tr></td>
+      <td><td>  
+      <input type="submit" value="Send" id="submit" onclick="return confirm('Ønsker du å sende?')">
+      </td></tr>
+      <br><br><br>
+    
+    </div>
+
+  </main>
+
+</body>
+
+</html>
