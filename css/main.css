@@ -148,13 +148,3 @@
   #bilder {
     margin: auto;
   }
-
-  #kontakt {
-   margin: auto;
-   display: block;
-   position: relative;
-  }
-
-  #kontakt tr td {
-    padding: 10px;
-  }
