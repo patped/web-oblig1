@@ -110,20 +110,18 @@
   }
 
   #submit {
-    background-color: rgba(119, 93, 0, 0.8);
-    opacity: 0.9;
+    background: rgba(161, 78, 10, 0.8);
     color: #FFF;
-    border: 1px solid #93eb59;
     width: 80px;
-    height: 40px;
-    border-radius: 10px;
-    font-family: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
-    font-size: 1.1em;
+    padding: 10px 3px 7px 2px;
+    border-radius: 25px;
+    margin: auto;
+    display: block;
   }
 
   #submit:hover {
-    background-color: #437d1c;
-    opacity: 0.9;
+    background: rgba(111, 52, 8, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   figure {
@@ -147,4 +145,15 @@
 
   #bilder {
     margin: auto;
+  }
+
+  p {
+    padding: 10px;
+    display: block;
+    position: relative;
+  }
+
+  #kontaktskjema tr td {
+    padding-left: 10px;
+    padding-top: 5px;
   }
