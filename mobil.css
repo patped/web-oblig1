@@ -1,18 +1,28 @@
+  body
+  {
+    margin: 0;
+  }
 
 
   #bakgrunn {
   display: block;
   position: fixed;
   width: 100%;
-  height: auto;
+  background-size: cover;
+  height: 100vh;
   z-index: 0;
+  top: 0;
+  left: 0; 
   }
 
   header {
     width: 100%;
     background: rgba(255, 255, 255, 0.7);
-    position: relative;
+    width: calc(100 vw);
+    position: fixed;
     display: block;
+    height: 70px;
+    z-index: 1;
   }
 
   h1 {
@@ -20,10 +30,12 @@
   }
 
   #logo {
-    background: url(bilder/brødklubben.png);
-    margin: auto;
+    background: url(bilder/brødklubben.png) 0 0 no-repeat;
+    width: 800px;
+    height: 172px;
     display: block;
     position: relative;
+    margin: auto;
   }
 
   nav {

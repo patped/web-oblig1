@@ -20,7 +20,7 @@
   }
 
   #logo {
-    background: url(bilder/brødklubben.png);
+    background: url(bilder/brødklubben.png) 0 0 no-repeat;
     margin: auto;
     display: block;
     position: relative;
