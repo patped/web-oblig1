@@ -20,21 +20,37 @@
   }
 
   #logo {
-    background: url(bilder/brødklubben.png) 0 0 no-repeat;
+    background: url(../bilder/mobil-logo.png) 0 0 no-repeat;
+    height: 118px;
+    width: 156px;
     margin: auto;
     display: block;
     position: relative;
   }
 
+  #font
+  {
+    background: url(../bilder/brødklubb-font.png) 0 0 no-repeat;
+    height: 59px;
+    width: 247px;
+    margin: auto;
+    display: block;
+    position: relative;
+  }
+
+  #bakgrunn
+  {
+    background: url(../bilder/bakgrunn-mobil.jpg);
+    width: 100vw;
+    height: 100vh;
+  }
+
   nav {
     background: rgba(255, 255, 255, 0.7);
     display: block;
-    top: 188px;
-    position: fixed;
-    width: calc(100vw);
-    height: 80px;
-    margin: auto;
-    z-index: 1;
+    position: relative;
+    width: 100vw;
+    height: 130px;
   }
 
   nav ul {
@@ -64,24 +80,14 @@
 
   main {
     width: 100vw;
-    height: 100vh;
-    background: rgba(255, 255, 255, 0.6);
+    height: 150vh;
+    background: rgba(255, 255, 255, 0.7);
     display: block;
     position: relative;
-    border-radius: 10px;
     margin: auto;
+    
 
   }
-
-  footer {
-    width: 60%;
-    height: 60px;
-    background: #9C9;
-    position: relative;
-    display: block;
-    margin: auto;
-    }
-
 
   #brød {
     margin: auto;
@@ -172,8 +178,10 @@
 
   .brod img
   {
-    width: 100vh;
-    height: 100vw;
+    width: 100vw;
+    height: 50vh;
     z-index: 0;
   }
+
+
 
