@@ -60,7 +60,7 @@
   }
 
   main {
-    width: 60%;
+    width: 80%;
     height: 100%;
     background: rgba(255, 255, 255, 0.6);
     display: block;
@@ -166,4 +166,29 @@
     margin:auto;
   }
 
+.brod img
+{
+
+    height: 234px;
+    width: 330px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    float: left;
+}
+
+.katt img
+{
+  float: right;
+}
+
+h2
+{
+  color: brown;
+}
+
+p
+{
+  color: black;
+}
 
