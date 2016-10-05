@@ -20,7 +20,6 @@
   }
 
   #logo {
-    background: url(bilder/brødklubben.png) 0 0 no-repeat;
     margin: auto;
     display: block;
     position: relative;
@@ -99,6 +98,7 @@
     font-size:  36px;
     padding: 20px;
     text-align: center;
+    color: brown;
   }
 
   h3 {
@@ -110,61 +110,88 @@
    font-weight: bold;
   }
 
-
-#tabell
-{
-  background: rgba(119, 93, 0, 0.8);
-  opacity: 0.9;
-  height:100%;
-  margin: auto;
-  display: block;
-  font-size: 1em;
-  margin-top: 16px;
-  padding-left: 50px;
-}
-
-#submit 
-{
-  background-color: rgba(119, 93, 0, 0.8);
-  opacity: 0.9;
-  color: #FFF;
-  border: 1px solid #93eb59;
-  width: 80px;
-  height: 40px;
-  border-radius: 10px;
-  font-family: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
-  font-size: 1.1em;
-}
-
-#submit:hover {
-  background-color: #437d1c;
-  opacity: 0.9;
-}
-
-
-
-
-  figure {
-      width: 360px;
-      height: 300px;
-      text-align: center;
-      padding-top: 30px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-      position: relative;
-      background:rgba(255, 255, 255, 0.6);
-      margin: 10px;
-      float: left;
+  #submit {
+    background: rgba(161, 78, 10, 0.8);
+    color: #FFF;
+    width: 80px;
+    padding: 10px 3px 7px 2px;
+    border-radius: 25px;
+    margin: auto;
+    display: block;
   }
 
-  figcaption {
-      text-align: center;
-      font-family:Georgia, serif;
-      color: #333;
-      padding-top: 30px;
+  #submit:hover {
+    background: rgba(111, 52, 8, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #galleri  figure {
+    width: 360px;
+    height: 300px;
+    text-align: center;
+    padding-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    background:rgba(255, 255, 255, 0.6);
+    margin: 10px;
+    float: left;
+  }
+
+  #galleri  figcaption {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #333;
+    padding-top: 30px;
   }
 
   #bilder {
-    margin:auto;
+    margin: auto;
   }
 
+  #kontaktskjema tr td {
+    padding-left: 30px;
+    padding-top: 5px;
+  }
 
+  .req:invalid {
+    border: 1px solid #FF3E3E;
+  }
+
+  .brod img {
+    height: 234px;
+    width: 330px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    float: left;
+  }
+
+  #omoss figure {
+    width: 500px;
+    text-align: center;
+    padding-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    background:rgba(255, 255, 255, 0.6);
+    margin: auto;
+    float: auto;
+    border-radius: 10px;
+  }
+
+  .katt img {
+    float: right;
+  }
+
+  p {
+    color: black;
+  }
+
+  #omoss figure figcaption {
+    text-align: center;
+    font-family:Georgia, serif;
+    color: #333;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+  }

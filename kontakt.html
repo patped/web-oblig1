@@ -8,11 +8,14 @@
   <link rel="stylesheet" media="(min-width: 601px)" href="main.css">
 </head>
 
-<body>
+  <body>
 
-  <img id="bakgrunn" src="bakgrunn.jpg">
+    <img id="bakgrunn" src="bilder/bakgrunn.jpg" />
 
-  <header></header>
+    <header>
+      <h1>Brødklubben</h1>
+      <img id="logo" src="bilder/brødklubben.png" />
+    </header>
 
   <nav>
     <ul>
@@ -20,47 +23,56 @@
       <a href="brød.html"><li>Brødtyper</li></a>
       <a href="brødgalleri.html"><li>Brødgalleri</li></a>
       <a href="kontakt.html"><li>Kontakt Oss</li></a>
-      <a href="oversikt.html"><li>Meny 5</li></a>
+      <a href="omoss.html"><li>Om oss</li></a>
     </ul>
   </nav>
 
-  <br>
+    <br>
 
-  <main>
-  <div id="tabell">
-  <br><br>
-  <form name="form" method="post" action="kontakt.php" >
-      <tr><td>
-        <label for="navn">Navn</label>
-      </td></td>
-        <input type="text" name="navn" required="required id="navn" placeholder="Fornavn og Etternavn">
-        <br><br>
-      <td></tr>
-      </td></td>
-      <label for="mobil">Mobil</label>
-      <input type="tel" name="mobil" required="required id="mobil" placeholder="8-siffer">
-      </td></td>
-      <br><br>
-      <label for="epost">E-Mail</label>
-      <input type="email" name="epost" required="required" placeholder="E-postadresse">
-      <td></tr>
-      </tr></td>
-      <br><br>
-      <label for="">Beskjed</label>
-      <br><br>
-      <textarea name="kommentarer id="kommentarer" rows="10" cols="107" required="required"></textarea>
+    <main>
+
       <br>
-      </td></td>
-      <tr></td>
-      <td><td>  
-      <input type="submit" value="Send" id="submit" onclick="return confirm('Ønsker du å sende?')">
-      </td></tr>
-      <br><br><br>
-    
-    </div>
 
-  </main>
+      <form name="kontakt" method="post" action="mailto:162756@student.hit.no">
 
-</body>
+        <table id="kontaktskjema">
+
+          <tr>
+            <td><label for="navn">Navn</label></td>
+            <td><input class="req" type="text" name="navn" required placeholder="Fornavn og Etternavn"></td>
+          </tr>
+
+          <tr>
+            <td><label for="mobil">Mobil</label></td>
+            <td><input class="req" type="tel" name="mobil" required placeholder="8-siffer"></td>
+          </tr>
+
+          <tr>
+            <td><label for="epost">E-Mail</label></td>
+            <td><input class="req" type="email" name="epost" required placeholder="E-postadresse"></td>
+          </tr>
+
+          <tr>
+            <td><label for="kommentarer">Beskjed</label></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td><textarea class="req" name="kommentarer" rows="10" cols="107" required></textarea> </td>
+          </tr>
+
+        </table>
+
+        <br>
+
+        <input type="submit" id="submit" value="Send" onclick="return confirm('Ønsker du å sende?')">
+
+        <br>
+
+      </form>
+
+    </main>
+
+  </body>
 
 </html>
