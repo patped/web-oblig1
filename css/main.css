@@ -98,6 +98,7 @@
     font-size:  36px;
     padding: 20px;
     text-align: center;
+    color: brown;
   }
 
   h3 {
@@ -124,7 +125,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-  figure {
+  #galleri  figure {
     width: 360px;
     height: 300px;
     text-align: center;
@@ -136,7 +137,7 @@
     float: left;
   }
 
-  figcaption {
+  #galleri  figcaption {
     text-align: center;
     font-family: Georgia, serif;
     color: #333;
@@ -169,25 +170,21 @@
     width: 500px;
     text-align: center;
     padding-top: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: relative;
     background:rgba(255, 255, 255, 0.6);
     margin: auto;
     float: auto;
+    border-radius: 10px;
   }
 
   .katt img {
-  float: right;
-  }
-
-  h2 {
-  color: brown;
+    float: right;
   }
 
   p {
-  color: black;
+    color: black;
   }
-
 
   #omoss figure figcaption {
     text-align: center;
