@@ -20,6 +20,7 @@
   }
 
   #logo {
+    background: url(bilder/brødklubben.png) 0 0 no-repeat;
     margin: auto;
     display: block;
     position: relative;
@@ -28,10 +29,12 @@
   nav {
     background: rgba(255, 255, 255, 0.7);
     display: block;
-    position: relative;
-    width: 100%;
+    top: 188px;
+    position: fixed;
+    width: calc(100vw);
     height: 80px;
     margin: auto;
+    z-index: 1;
   }
 
   nav ul {
@@ -60,8 +63,8 @@
   }
 
   main {
-    width: 60%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background: rgba(255, 255, 255, 0.6);
     display: block;
     position: relative;
@@ -164,6 +167,13 @@
 
   #bilder {
     margin:auto;
+
   }
 
+  .brod img
+  {
+    width: 100vh;
+    height: 100vw;
+    z-index: 0;
+  }
 
