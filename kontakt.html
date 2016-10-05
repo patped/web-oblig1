@@ -26,29 +26,29 @@
       </ul>
     </nav>
 
-    <br />
+    <br>
 
     <main>
 
-      <br />
+      <br>
 
-      <form name="kontakt" method="post" action="kontakt.php">
+      <form name="kontakt" method="post" action="mailto:162756@student.hit.no">
 
         <table id="kontaktskjema">
 
           <tr>
             <td><label for="navn">Navn</label></td>
-            <td><input type="text" name="navn" required id="navn" placeholder="Fornavn og Etternavn" /></td>
+            <td><input class="req" type="text" name="navn" required placeholder="Fornavn og Etternavn"></td>
           </tr>
 
           <tr>
             <td><label for="mobil">Mobil</label></td>
-            <td><input type="tel" name="mobil" required id="mobil" placeholder="8-siffer" /></td>
+            <td><input class="req" type="tel" name="mobil" required placeholder="8-siffer"></td>
           </tr>
 
           <tr>
             <td><label for="epost">E-Mail</label></td>
-            <td><input type="email" name="epost" required placeholder="E-postadresse" /></td>
+            <td><input class="req" type="email" name="epost" required placeholder="E-postadresse"></td>
           </tr>
 
           <tr>
@@ -57,16 +57,16 @@
 
           <tr>
             <td></td>
-            <td> <textarea name="kommentarer" id="kommentarer" rows="10" cols="107" required></textarea> </td>
+            <td><textarea class="req" name="kommentarer" rows="10" cols="107" required></textarea> </td>
           </tr>
 
         </table>
 
-        <br />
+        <br>
 
-        <input type="submit" value="Send" id="submit" onclick="return confirm('Ønsker du å sende?')" />
+        <input type="submit" id="submit" value="Send" onclick="return confirm('Ønsker du å sende?')">
 
-        <br />
+        <br>
 
       </form>
 
