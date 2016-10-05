@@ -1,10 +1,10 @@
 
 
   #bakgrunn {
+  width: 100vw;
+  height: 100vh;
   display: block;
   position: fixed;
-  width: 100%;
-  height: auto;
   z-index: 0;
   }
 
@@ -20,6 +20,9 @@
   }
 
   #logo {
+    background: url(../bilder/brødklubben.png);
+    width: 800px;
+    height: 172px;
     margin: auto;
     display: block;
     position: relative;
@@ -46,7 +49,7 @@
     color: #FFF;
     width: 80px;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 10vw;
     margin-top: 16px;
     display: inline-block;
     padding: 10px 3px 7px 2px;
@@ -67,6 +70,7 @@
     position: relative;
     border-radius: 10px;
     margin: auto;
+    margin-top: 20px;
 
   }
 
@@ -194,4 +198,14 @@
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 30px;
+  }
+
+  #beskjed
+  {
+     width: 700px;
+     height: 250px;
+  }
+
+  #beskjed:invalid {
+    border: 1px solid #FF3E3E;
   }
