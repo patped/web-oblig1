@@ -199,3 +199,13 @@
     padding-right: 50px;
     padding-bottom: 30px;
   }
+
+  #beskjed
+  {
+     width: 700px;
+     height: 250px;
+  }
+
+  #beskjed:invalid {
+    border: 1px solid #FF3E3E;
+  }
