@@ -9,7 +9,6 @@
   }
 
   header {
-    width: 100vw;
     background: rgba(255, 255, 255, 0.7);
     position: relative;
     display: block;
@@ -60,6 +59,11 @@
     background: rgba(111, 52, 8, 0.8);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+  }
+
+  nav ul li a {
+  text-decoration: none;
+  color: #fff;
   }
 
   main {
@@ -157,10 +161,6 @@
     padding-top: 5px;
   }
 
-  .req:invalid {
-    border: 1px solid #FF3E3E;
-  }
-
   .brod img {
     height: 234px;
     width: 330px;
@@ -178,7 +178,6 @@
     position: relative;
     background:rgba(255, 255, 255, 0.6);
     margin: auto;
-    float: auto;
     border-radius: 10px;
   }
 
@@ -200,12 +199,11 @@
     padding-bottom: 30px;
   }
 
-  #beskjed
-  {
+  #beskjed {
      width: 700px;
      height: 250px;
   }
 
-  #beskjed:invalid {
+  input:required:invalid {
     border: 1px solid #FF3E3E;
   }

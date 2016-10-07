@@ -5,28 +5,29 @@
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" media="(max-width: 600px)" href="css/mobil.css">
   <link rel="stylesheet" media="(min-width: 601px)" href="css/main.css">
+  <link rel='icon' href='data:;base64,iVBORw0KGgo='>
   <meta charset="utf-8">
   <title>Brødklubben</title>
 </head>
 
   <body>
 
-    <img id="bakgrunn" src="bilder/bakgrunn.jpg" />
+  <img id="bakgrunn" src="bilder/bakgrunn.jpg" alt="brød">
 
     <header>
       <h1>Brødklubben</h1>
       <div id="logo"></div>
     </header>
 
-    <nav>
-      <ul>
-        <a href="index.html"><li>Hovedside</li></a>
-        <a href="brød.html"><li>Brødtyper</li></a>
-        <a href="brødgalleri.html"><li>Brødgalleri</li></a>
-        <a href="kontakt.html"><li>Kontakt Oss</li></a>
-        <a href="omoss.html"><li>Om oss</li></a>
-      </ul>
-    </nav>
+   <nav>
+    <ul>
+      <li><a href="index.html">Hovedside</a></li>
+      <li><a href="brød.html">Brødtyper</a></li>
+      <li><a href="brødgalleri.html">Brødgalleri</a></li>
+      <li><a href="kontakt.html">Kontakt Oss</a></li>
+      <li><a href="omoss.html">Om oss</a></li>
+    </ul>
+  </nav>
 
     <main>
 
@@ -38,26 +39,27 @@
 
           <tr>
             <td><label for="navn">Navn</label></td>
-            <td><input class="req" type="text" name="navn" required placeholder="Fornavn og Etternavn"></td>
+            <td><input id="navn" class="req" type="text" name="navn" required placeholder="Fornavn og Etternavn"></td>
           </tr>
 
           <tr>
             <td><label for="mobil">Mobil</label></td>
-            <td><input class="req" type="tel" name="mobil" required placeholder="8-siffer"></td>
+            <td><input id="mobil" class="req" type="tel" name="mobil" required placeholder="8-siffer"></td>
           </tr>
 
           <tr>
             <td><label for="epost">E-Mail</label></td>
-            <td><input class="req" type="email" name="epost" required placeholder="E-postadresse"></td>
+            <td><input id="epost" class="req" type="email" name="epost" required placeholder="E-postadresse"></td>
           </tr>
 
           <tr>
-            <td><label for="kommentarer">Beskjed</label></td>
+            <td><label for="beskjed">Beskjed</label></td>
+            <td></td>
           </tr>
 
           <tr>
             <td></td>
-            <td><textarea id="beskjed" name="kommentarer" required></textarea> </td>
+            <td><textarea id="beskjed" required></textarea> </td>
           </tr>
 
         </table>
